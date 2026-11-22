@@ -1,0 +1,6 @@
+{
+  "name": "Breeze",
+  "description": "Airy personal wealth management for net worth tracking, cash flow, category budgets, and lifestyle savings goals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,257 @@
+---
+name: Breeze
+colors:
+  surface: '#f9f9fc'
+  surface-dim: '#dadadc'
+  surface-bright: '#f9f9fc'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f3f3f6'
+  surface-container: '#eeeef0'
+  surface-container-high: '#e8e8ea'
+  surface-container-highest: '#e2e2e5'
+  on-surface: '#1a1c1e'
+  on-surface-variant: '#3d4a3e'
+  inverse-surface: '#2f3133'
+  inverse-on-surface: '#f0f0f3'
+  outline: '#6d7b6d'
+  outline-variant: '#bccabb'
+  surface-tint: '#006d32'
+  primary: '#006b31'
+  on-primary: '#ffffff'
+  primary-container: '#008740'
+  on-primary-container: '#f7fff3'
+  inverse-primary: '#5ddf83'
+  secondary: '#5a52af'
+  on-secondary: '#ffffff'
+  secondary-container: '#a59dff'
+  on-secondary-container: '#382f8b'
+  tertiary: '#835100'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#a26815'
+  on-tertiary-container: '#fffbff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#7bfc9c'
+  primary-fixed-dim: '#5ddf83'
+  on-primary-fixed: '#00210b'
+  on-primary-fixed-variant: '#005224'
+  secondary-fixed: '#e4dfff'
+  secondary-fixed-dim: '#c6c0ff'
+  on-secondary-fixed: '#150066'
+  on-secondary-fixed-variant: '#423995'
+  tertiary-fixed: '#ffddb9'
+  tertiary-fixed-dim: '#ffb963'
+  on-tertiary-fixed: '#2b1700'
+  on-tertiary-fixed-variant: '#663e00'
+  background: '#f9f9fc'
+  on-background: '#1a1c1e'
+  surface-variant: '#e2e2e5'
+typography:
+  display-hero:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '800'
+    lineHeight: 48px
+    letterSpacing: -0.03em
+  display-hero-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '800'
+    lineHeight: 40px
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '700'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 22px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  numeric-metric:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 38px
+    letterSpacing: -0.02em
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-mobile: 0.75rem
+  margin: 1.5rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+  space-2xl: 3rem
+---
+
+## Brand & Style
+
+This design system establishes an airy, optimistic, and radically lucid visual atmosphere for modern personal wealth management. Designed to alleviate financial anxiety, the aesthetic centers on crisp white ground, deliberate breathing room, confident modern typography, and vibrant organic accents that celebrate positive financial momentum.
+
+### Key Tenets
+- **Airy Clarity:** Interfaces rely on vast white fields, minimal visual clutter, and gentle surface stepping rather than heavy dividers.
+- **Supportive Optimism:** Rich emerald greens signal growth and safety, while warm amber and violet balance the visual palette to keep data visualization human and welcoming.
+- **Soft Geometry:** Large continuous corner curves and full-pill interactive elements invite tactile engagement and reduce cognitive stress.
+
+## Colors
+
+The color architecture is built around dynamic tonal hierarchy, pairing an energetic financial green with soothing supporting accents over an immaculate neutral scale.
+
+### Functional Roles
+- **Primary (`#00A24E`):** Core calls to action, committed states, active navigation tabs, positive balance deltas, and primary links. Contrast paired strictly with `#FFFFFF`.
+- **Primary Soft (`#DBFCE1`):** Subdued status containers, highlighted transactions, selected chips, and subtle focus backdrops.
+- **Secondary (`#7A72D1`):** Auxiliary insights, multi-asset data visualizations, recurring bills, and secondary feature discoverability.
+- **Tertiary (`#EBA650`):** Budget thresholds, dynamic progress rings, discretionary spending categories, and goal flags.
+- **Neutrals & Surfaces:**
+  - `Background` / `Surface` (`#FFFFFF`): Primary substrate for layered cards and modals.
+  - `Surface 2` (`#F3F5F7`): Embedded form controls, segment tracking backgrounds, table headers, and soft card fills.
+  - `Line` (`#E2E4E7`): Subtle 1px structural separators, hairlines, and card framing.
+  - `Ink` (`#181A1C`): High-contrast titles, figures, and active labels.
+  - `Ink 2` (`#66686D`): Descriptive copy, captions, and secondary timestamps.
+  - `Inverse` (`#1C1E20`): Floating toasts, snackbars, and high-emphasis contrast banners.
+- **Semantics:**
+  - `Success` (`#159A49`): Inflows, fulfilled budgets, confirmations.
+  - `Warning` (`#C97D00`): Pending authorizations, approaching category caps.
+  - `Danger` (`#D32F34`): Overdraft notices, expenses, negative balances, and errors.
+
+## Typography
+
+The typography system pairs structural legibility with a rounded, friendly geometric construction. It uses generous aperture openings, clean vertical metrics, and proportional numerical figures suited for rapid mobile financial scannability.
+
+### Typographic Hierarchy Rules
+- **Numerical Hierarchy:** Primary net worth and liquid account values utilize `display-hero` or `numeric-metric` with tight negative tracking (`-0.02em` to `-0.03em`) to anchor dashboards.
+- **Section Enclosures:** Section labels and card subheadings utilize uppercase `label-sm` or `label-md` with expanded letter-spacing to organize dense data arrays cleanly without requiring heavy graphic borders.
+- **Body Rhythm:** General descriptive text relies strictly on `body-md` in `Ink 2` (`#66686D`), ensuring comfortable reading contrast across transaction histories.
+
+## Layout & Spacing
+
+The layout model is optimized primarily for touch-first mobile interfaces, employing a flexible grid that transitions fluidly across viewport widths while preserving deliberate touch targets and ergonomic thumb reaches.
+
+### Layout Mechanics
+- **Mobile Grid (up to 599px):** 4-column fluid layout with `1rem` outer canvas margin (`margin-mobile`) and `0.75rem` column gutters (`gutter-mobile`).
+- **Tablet / Large Handheld (600px - 1023px):** 8-column layout with `1.5rem` margins and `1rem` gutters.
+- **Desktop Dashboard (1024px+):** 12-column layout centered within a max container width of `1200px`.
+
+### Spacing Scale
+- Use `space-xs` (4px) and `space-sm` (8px) for inline label-to-icon locks, badge padding, and segmented button gaps.
+- Use `space-md` (16px) for interior card padding, stack gaps between transaction rows, and input field vertical rhythm.
+- Use `space-lg` (24px) for distinct card grouping separations and modal gutters.
+- Use `space-xl` (32px) and `space-2xl` (48px) for primary canvas segment shifts (e.g., separating summary balance heroes from functional tab carousels).
+
+## Elevation & Depth
+
+Visual hierarchy is constructed through luminous tonal layering complemented by subtle ambient diffusion. Heavy opaque drop shadows are strictly prohibited; depth must feel natural and illuminated by ambient overhead light.
+
+### Depth Tiers
+- **Tier 0 (Canvas Base):** Plain `#FFFFFF` viewport surface.
+- **Tier 1 (Recessed Well):** `#F3F5F7` flat surface fill with zero drop shadow, used for search inputs, aggregate spending graphs, and inactive card basins.
+- **Tier 2 (Floating Card Surface):** Pure `#FFFFFF` resting on `#F3F5F7` or base canvas, framed by a delicate 1px outline of `#E2E4E7` and supported by an ambient shadow:
+  - *Offset:* `0px 4px`
+  - *Blur:* `20px`
+  - *Spread:* `0px`
+  - *Color:* `rgba(24, 26, 28, 0.04)`
+- **Tier 3 (Active Overlays & Modals):** Bottom sheets, action action drawers, and sticky header bars:
+  - *Offset:* `0px 12px`
+  - *Blur:* `32px`
+  - *Spread:* `-4px`
+  - *Color:* `rgba(24, 26, 28, 0.08)`
+  - *Border:* `1px solid rgba(226, 228, 231, 0.6)`
+- **Tier 4 (Floating Pills & Quick-Action FABs):**
+  - *Offset:* `0px 8px`
+  - *Blur:* `16px`
+  - *Color:* `rgba(0, 162, 78, 0.2)` for primary green elements; `rgba(24, 26, 28, 0.06)` for neutral elements.
+
+## Shapes
+
+The design system embraces an ultra-soft, organic geometry. Elements either terminate in expansive, sweeping radii or complete full-pill geometry, reinforcing the friendly, frictionless consumer character of the app.
+
+### Geometry Specifications
+- **Interactive Controls:** All buttons, status chips, search pills, and segmented selection bars utilize full pill radii (`border-radius: 9999px`).
+- **Cards & Modals:** Standard transaction cards, spend summary containers, and bottom sheets utilize `rounded-xl` (24px to 32px), creating smooth, modern enclosures.
+- **Embedded Media & Nested Micro-tiles:** Category icons, merchant avatars, and inner data metrics use `rounded-lg` (16px) or full circles (`border-radius: 50%`).
+
+## Components
+
+### Buttons
+- **Primary Pill:** Background `#00A24E`, text `#FFFFFF`, height `48px` (touch-optimized), horizontal padding `24px`, full pill radius. On hover/active, shift to `#159A49`.
+- **Soft Pill:** Background `#DBFCE1`, text `#00A24E`, height `40px` or `48px`, border none. Used for non-destructive actions, quick filters, and contextual actions.
+- **Secondary / Tertiary Pill:** Background `#F3F5F7` or border-only (`1px solid #E2E4E7`), text `#181A1C`.
+
+### Chips & Badges
+- **Status Badges:** Height `24px` to `28px`, full pill shape, `8px` horizontal padding. Font: `label-sm`.
+  - *Completed / Inflow:* Background `#DBFCE1`, text `#00A24E`.
+  - *Pending / Alert:* Background `rgba(235, 166, 80, 0.15)`, text `#C97D00`.
+  - *Expense / Overdue:* Background `rgba(211, 47, 52, 0.1)`, text `#D32F34`.
+- **Category Filter Chips:** Full-pill toggle buttons with `1px solid #E2E4E7`, background `#FFFFFF`. Active state transitions to background `#181A1C`, text `#FFFFFF`, border-color `#181A1C`.
+
+### Cards & Inset Panels
+- **Tinted Summary Card:** Background `#F3F5F7` or soft primary gradient tint (`linear-gradient(180deg, #FFFFFF 0%, #DBFCE1 100%)`). 24px radius, interior padding `space-lg`, ambient drop shadow Tier 2.
+- **Photo / Lifestyle Goal Card:** High-bleed imagery with a dynamic scrim gradient (`linear-gradient(180deg, rgba(24, 26, 28, 0) 40%, rgba(24, 26, 28, 0.85) 100%)`), housing white typography and embedded progress pills.
+
+### Lists & Transaction Rows
+- **List Container:** Clean vertical flow separated by `space-sm` gaps, avoiding full horizontal divider lines wherever possible.
+- **Transaction Item:** Height `64px`, featuring a 44px circular or 16px rounded-square merchant icon container in `#F3F5F7`, title in `title-md`, secondary timestamp/category in `body-md` (`#66686D`), and right-aligned amount in `title-md` (`#00A24E` for credit, `#181A1C` for debit).
+
+### Input Fields
+- **Standard Input:** Background `#F3F5F7`, border `1px solid transparent`, height `52px`, `rounded-xl` (16px to 20px) or full pill, text in `body-lg` (`#181A1C`), placeholder in `#66686D`. Focus state transitions border to `#00A24E` with `#FFFFFF` background.
+
+### Checkboxes, Radios & Switches
+- **Switches:** Pill enclosure (width `48px`, height `28px`), inactive background `#E2E4E7`, active background `#00A24E`. Circular thumb (`22px`) in pure `#FFFFFF` with Tier 2 ambient shadow.
+- **Checkboxes & Radios:** Size `20px`, 6px roundedness for checkboxes, circular for radios. Inactive border `2px solid #E2E4E7`; active fill `#00A24E` with white inner glyph.
+
+### Category Budget Progress Tiles
+- Card modules displaying category icon, category name, spending limit, and an integrated progress bar (height `8px`, background `#F3F5F7`, active track fill `#00A24E`, `#7A72D1`, or `#EBA650` with full rounded ends).

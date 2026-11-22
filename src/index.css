@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-breeze-primary: #00A24E;
+  --color-breeze-primary-hover: #159A49;
+  --color-breeze-primary-soft: #DBFCE1;
+  --color-breeze-primary-deep: #006B31;
+  --color-breeze-secondary: #7A72D1;
+  --color-breeze-secondary-soft: #EFEFFE;
+  --color-breeze-tertiary: #EBA650;
+  --color-breeze-tertiary-soft: #FDF3E7;
+  --color-breeze-surface: #FFFFFF;
+  --color-breeze-surface-2: #F3F5F7;
+  --color-breeze-line: #E2E4E7;
+  --color-breeze-ink: #181A1C;
+  --color-breeze-ink-2: #66686D;
+  --color-breeze-inverse: #1C1E20;
+  --color-breeze-success: #159A49;
+  --color-breeze-warning: #C97D00;
+  --color-breeze-danger: #D32F34;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #FFFFFF;
+    color: #181A1C;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+
+  button, a, input, select, textarea {
+    outline-color: #00A24E;
+  }
+}
+
+.breeze-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E4E7;
+  box-shadow: 0 4px 20px 0 rgba(24, 26, 28, 0.04);
+}
+
+.breeze-summary-wash {
+  background: linear-gradient(180deg, #FFFFFF 0%, #DBFCE1 100%);
+  border: 1px solid #E2E4E7;
+  box-shadow: 0 4px 20px 0 rgba(24, 26, 28, 0.04);
+}
+
+.breeze-overlay {
+  box-shadow: 0 12px 32px -4px rgba(24, 26, 28, 0.08);
+  border: 1px solid rgba(226, 228, 231, 0.6);
+}
+
+.breeze-fab-shadow {
+  box-shadow: 0 8px 16px 0 rgba(0, 162, 78, 0.2);
+}
+
+.breeze-scrim {
+  background: linear-gradient(180deg, rgba(24, 26, 28, 0) 35%, rgba(24, 26, 28, 0.86) 100%);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
